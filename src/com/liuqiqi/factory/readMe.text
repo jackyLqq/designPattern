@@ -1,0 +1,5 @@
+工厂方法还可以升级为多个工厂模式，一个产品由一个工厂负责创建，更符合单一职责的涉及模式。下面具体给出例子。
+1、产品接口：Human
+2、具体产品：BlackHuman,YellowHuman,WhiteHuman.
+3、抽象工厂：AbstractHumanFactory
+4、具体工厂：BlackHumanFactory，YellowHumanFactory，WhiteHumanFactory
